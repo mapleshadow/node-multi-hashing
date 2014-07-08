@@ -21,6 +21,9 @@
                 "x13.c",
                 "boolberry.cc",
                 "nist5.c",
+                "sha1.c",
+                "x15.c",
+                "fresh.c",
                 "sha3/sph_hefty1.c",
                 "sha3/sph_fugue.c",
                 "sha3/aes_helper.c",
@@ -35,6 +38,8 @@
                 "sha3/sph_shavite.c",
                 "sha3/sph_simd.c",
                 "sha3/sph_skein.c",
+                "sha3/sph_whirlpool.c",
+                "sha3/sph_shabal.c",
                 "sha3/hamsi.c",
                 "crypto/oaes_lib.c",
                 "crypto/c_keccak.c",
@@ -44,7 +49,7 @@
                 "crypto/c_skein.c",
                 "crypto/hash.c",
                 "crypto/aesb.c",
-                "crypto/wild_keccak.cpp"
+                "crypto/wild_keccak.cpp",
             ],
             "include_dirs": [
                 "crypto",
